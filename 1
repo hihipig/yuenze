@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int day,x,y;
+    printf("How many days?\n");
+    scanf("%d",&day);
+    printf("How many peaches?\n");
+    scanf("%d",&y);
+    while(day>0)
+    {
+        x=(y+1)*2;
+        y=x;
+        day--;
+    }
+    printf("the peaches is %d\n",x);
+    return 0;
+}  
